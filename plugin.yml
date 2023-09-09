@@ -1,5 +1,5 @@
-name: EasyWing
-main: phuongaz\EasyWing\Loader
-author: phuongaz
-version: 1.0.7
-api: 4.0.0
+name: WingsAnimated
+main: NurAzliYT\WingsAnimated\Loader
+author: NurAzliYT
+version: 1.0.0
+api: 5.0.0
