@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace NurAzliYT\WingsAnimated\form;
 
 use pocketmine\player\Player;
-use NurAzliYT\FormAPI\SimpleForm;
+use jojoe77777\FormAPI\SimpleForm;
 use NurAzliYT\WingsAnimated\Loader;
 
 Class WingsForm{
