@@ -1,6 +1,6 @@
 <?php
 
-namespace phuongaz\EasyWing;
+namespace NurAzliYT\WingsAnimated;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\player\Player;
