@@ -3,7 +3,7 @@
 namespace NurAzliYT\WingsAnimated\command;
 
 use pocketmine\command\Command;
-use pocketmine\command\CommandSender
+use pocketmine\command\CommandSender;
 use pocketmine\player\Player;
 use NurAzliYT\WingsAnimated\form\WingsForm;
 
