@@ -1,0 +1,9 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/NurAzliYT/WingsAnimated
+build-by-default: true
+branches:
+- master
+projects:
+  WingsAnimated:
+    path: ""
+    icon: icon.png
+...
