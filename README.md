@@ -1,4 +1,4 @@
-# EasyWing
+# WingsAnimated
 Wing particle plugin for Pocketmine-MP
 
 <a href="https://poggit.pmmp.io/p/WingsAnimated"><img src="https://poggit.pmmp.io/shield.state/WingsAnimated"></a>
