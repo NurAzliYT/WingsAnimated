@@ -6,15 +6,15 @@ namespace NurAzliYT\WingsAnimated\task;
 
 use pocketmine\scheduler\Task;
 use pocketmine\player\Player;
-use NurAzliYT\WingsAnimated\CustomWing;
+use NurAzliYT\WingsAnimated\WingsAnimated;
 
 class WingTask extends Task{
 
 	public function __construct(
 		private Player $player,
-		private CustomWing $wing){}
+		private WingsAnimated $wing){}
 
-	public function getWing() :CustomWing{
+	public function getWing() :WingsAnimated{
 		return $this->wing;
 	}
 
