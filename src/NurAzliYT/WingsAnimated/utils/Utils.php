@@ -47,6 +47,6 @@ class Utils {
 
 	public static function hasPermission(Player $player, string $wing) :bool{
 		if(Server::getInstance()->isOp($player->getName())) return true;
-		return $player->hasPermission("easywing.on.".$wing);
+		return $player->hasPermission("wingsanimated.on.".$wing);
 	}
 }
