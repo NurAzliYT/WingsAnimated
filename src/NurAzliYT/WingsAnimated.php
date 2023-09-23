@@ -8,7 +8,7 @@ use pocketmine\entity\Location;
 use pocketmine\math\Vector3;
 use NurAzliYT\WingsAnimated\utils\Utils;
 
-class CustomWing {
+class WingsAnimated {
 
 	public function __construct(
 		private string $name,
