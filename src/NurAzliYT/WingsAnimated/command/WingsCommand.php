@@ -10,7 +10,7 @@ use NurAzliYT\WingsAnimated\form\WingsForm;
 Class WingsCommand extends Command{
 
 	public function __construct(){
-		parent::__construct("wings", "open wings form");
+		parent::__construct("wingsanimated", "open wings form");
 	}
 
 	public function execute(CommandSender $sender, string $label, array $args) :bool{
