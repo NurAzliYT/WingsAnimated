@@ -28,7 +28,7 @@ Class Loader extends PluginBase implements Listener{
 	public function onEnable() :void{
 		$this->saveDefaultConfig();
 		$this->saveResource("wings/example.yml");
-		$this->getServer()->getCommandMap()->register("EasyWing", new WingsCommand());
+		$this->getServer()->getCommandMap()->register("WingsAnimated", new WingsCommand());
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
 		$this->config = new Config($this->getDataFolder() . "/config.yml", Config::YAML);
 		foreach(glob($this->getDataFolder(). "wings/*.yml") as $wingPath){
@@ -50,18 +50,18 @@ Class Loader extends PluginBase implements Listener{
 		return $this->wings[$name];
 	}
 
-	public function getWing(string $name) :CustomWing{
+	public function getWing(string $name) :WingsAnimated{
 		$wingData = $this->getWingData($name);
 		$shape = $wingData->get("shape");
 		$scale = $wingData->get("scale");
-		return new CustomWing($name, $shape, $scale);
+		return new WingsAnimated($name, $shape, $scale);
 	}
 
 	public function getSetting() :Config{
  		return $this->config;
 	}
 
-	public function equipWing(Player $player, CustomWing $wing) :void {
+	public function equipWing(Player $player, WingsAnimated $wing) :void {
 		if(!Utils::hasPermission($player, $wing->getName())){
 			$player->sendMessage("You don't have permission");
 			return;
