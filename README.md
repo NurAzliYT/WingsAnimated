@@ -45,6 +45,6 @@ Wing-Name: "Example Wing" #Name of wing
 ```
 
 # How to get a wing
-+ Add permision to player `easywing.on.<wing name>`
++ Add permision to player `WingsAnimated.on.<wing name>`
 
 <img align="left" widht="auto" height="260" src="https://github.com/NurAzliYT/WingsAnimated/blob/master/icon.png?raw=true" alt="Logo">
