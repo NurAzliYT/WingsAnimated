@@ -5,9 +5,9 @@ version: 1.0.0
 api: 5.0.0
 
 commands:
-wa:
-permission: wa.command
+wingsanimated:
+permission: wingsanimated.command
 
 permissions:
-wa.command:
+wingsanimated.command:
 default: op
